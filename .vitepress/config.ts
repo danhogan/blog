@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 import { genFeed } from './genFeed.js'
 
 export default defineConfig({
-  title: 'The Vue Point',
-  description: 'The official blog for the Vue.js project',
+  title: 'Below The Benthic',
+  description: 'The official blog for Below The Benthic',
   cleanUrls: true,
   head: [
-    ['meta', { name: 'twitter:site', content: '@vuejs' }],
+    ['meta', { name: 'twitter:site', content: '@belowthebenthic' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     [
       'meta',
