@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Date from './Date.vue'
+import Testimonial from './Testimonial.vue'
 import { data as posts } from './posts.data.js'
 import { useData } from 'vitepress'
 
@@ -18,6 +19,8 @@ const { frontmatter } = useData()
         {{ frontmatter.subtext }}
       </p>
     </div>
+    <Testimonial />
+    <h2>Blog Posts</h2>
     <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
       <li class="py-12" v-for="{ title, url, date, excerpt } of posts">
         <article
