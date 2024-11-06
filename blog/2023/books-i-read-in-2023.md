@@ -9,7 +9,7 @@ tags:
 ---
 
 <script setup>
-    import Bennies from '../../.vitepress/theme/Bennies'
+    import Bennies from '../../.vitepress/theme/Bennies.vue'
 </script>
 
 
@@ -33,10 +33,7 @@ I read this earlier in the year and I read it in a funky digital format, so I do
 
 I greatly enjoyed the pragmatic approaches and would suggest the book to anyone.
 
-5 of 5
-
-![five-bennies](../images/five-bennies.jpg)
-<Bennies :filledCount="3" />
+<Bennies :rating="3" />
 
 
 ![How to Beat Your Dad at Chess](../images/beat-dad-at-chess.jpg)

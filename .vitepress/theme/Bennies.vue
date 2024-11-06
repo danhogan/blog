@@ -1,21 +1,22 @@
 <template>
-  <div class="svg-container">
-    hello
-    <svg
+  <p>{{ rating }} of 5</p>
+  <div class="svg-container w-full">
+    <div
       v-for="(star, index) in 5"
       :key="index"
-      :class="{ filled: index < filledCount }"
       v-html="logo"
-    ></svg>
+      :class="{ filled: index < rating }"
+      class="svg-wrapper"
+    ></div>
   </div>
 </template>
 
 <script>
-import logo from './logo.svg?raw';
+import logo from '/logo.svg?raw';
 
 export default {
   props: {
-    filledCount: {
+    rating: {
       type: Number,
       required: true,
       validator: (value) => value >= 0 && value <= 5,
@@ -32,15 +33,33 @@ export default {
 <style scoped>
 .svg-container {
   display: flex;
-  gap: 8px;
+  justify-content: space-between;
 }
 
-svg {
-  fill: none;
-  transition: fill 0.3s ease;
+.svg-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-svg.filled {
-  fill: currentColor;
+.svg-wrapper svg {
+  width: 100%;
+  height: auto;
+}
+
+.svg-wrapper {
+  color: transparent;
+}
+
+.svg-wrapper.filled {
+  color: #e29b2f;
+}
+
+.svg-container ::v-deep .svg-wrapper svg g {
+  stroke: white;
+}
+
+.svg-container ::v-deep .svg-wrapper.filled svg g {
+  stroke: transparent;
 }
 </style>

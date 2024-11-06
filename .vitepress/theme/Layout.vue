@@ -1,28 +1,24 @@
-<script setup lang="ts">
+<script setup>
 import { useData } from 'vitepress'
 import Home from './Home.vue'
 import Article from './Article.vue'
 import NotFound from './NotFound.vue'
+import logo from '/logo.svg?raw'
 
 const { page, frontmatter } = useData()
 </script>
+
 
 <template>
   <div class="antialiased dark:bg-blue-950">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <nav class="flex justify-between items-center py-10 font-bold">
         <a class="text-xl" href="/" aria-label="Below The Benthic">
-          <img
-            class="inline-block mr-2"
-            style="height: 31px"
+          <div
+            v-html="logo"
             alt="logo"
-            src="/logo.svg"
-          />
-          <span
-            v-if="!frontmatter.index"
-            class="hidden md:inline dark:text-white"
-            >Below The Benthic</span
-          >
+            style="height: 31px; color: transparent;"
+          ></div>
         </a>
         <div class="text-sm text-gray-500 dark:text-white leading-5">
           <a
