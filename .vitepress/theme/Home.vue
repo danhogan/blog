@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Date from './Date.vue'
 import Testimonial from './Testimonial.vue'
+import Projects from './Projects.vue'
 import { data as posts } from './posts.data.js'
 import { useData } from 'vitepress'
 
@@ -20,7 +21,9 @@ const { frontmatter } = useData()
       </p>
     </div>
     <Testimonial />
-    <h2 class="text-2xl leading-9 font-extrabold text-gray-900 dark:text-white tracking-tight sm:text-3xl sm:leading-10 md:text-5xl md:leading-14 mt-0 border-none">Blog Posts</h2>
+    <h2 class="text-2xl leading-9 font-extrabold text-gray-900 dark:text-white tracking-tight sm:text-3xl sm:leading-10 md:text-5xl md:leading-14 mt-0 border-none">What I've Been Working On</h2>
+    <Projects />
+    <h2 class="text-2xl leading-9 font-extrabold text-gray-900 dark:text-white tracking-tight sm:text-3xl sm:leading-10 md:text-5xl md:leading-14 border-none">Blog Posts</h2>
     <ul class="divide-y divide-gray-200 dark:divide-slate-200/5">
       <li class="py-12" v-for="{ title, url, date, excerpt } of posts">
         <article
