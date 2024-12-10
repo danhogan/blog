@@ -8,6 +8,10 @@ tags:
     - Ramblings
 ---
 
+<script setup>
+    import Bennies from '../../.vitepress/theme/Bennies.vue'
+</script>
+
 ## Tribes by Seth Godin
 
 ![Tribes](../images/tribes.jpg)

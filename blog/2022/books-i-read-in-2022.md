@@ -8,6 +8,10 @@ tags:
     - Ramblings
 ---
 
+<script setup>
+    import Bennies from '../../.vitepress/theme/Bennies.vue'
+</script>
+
 ## Atomic Habits by James Clear
 
 ![Atomic Habits](../images/atomic-habits.jpg)

@@ -8,6 +8,10 @@ tags:
     - Ramblings
 ---
 
+<script setup>
+    import Bennies from '../../.vitepress/theme/Bennies.vue'
+</script>
+
 ## The Subtle Art of Not Giving a F*ck by Mark Manson
 
 ![The Subtle Art of Not Give a F](../images/subtle-art.jpg)

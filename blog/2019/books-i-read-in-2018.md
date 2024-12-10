@@ -9,6 +9,10 @@ tags:
     - Ramblings
 ---
 
+<script setup>
+    import Bennies from '../../.vitepress/theme/Bennies.vue'
+</script>
+
 ## So Good They Can't Ignore You by Cal Newport
 
 ![So Good They Can't Ignore You](../images/so-good-they-cant-ignore.jpg)
