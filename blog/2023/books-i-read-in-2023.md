@@ -8,6 +8,10 @@ tags:
     - Ramblings
 ---
 
+Here lies review of text scrolled by my eyeballs in 2023.
+
+---
+
 <script setup>
     import Bennies from '../../.vitepress/theme/Bennies.vue'
 </script>
