@@ -17,7 +17,7 @@ It had been an embarrasingly long time since I picked up a physical book and rea
 
 I'll give it a 4 out of 5
 
-![four-bennies](../images/four-bennies.jpg)
+<Bennies :rating="4" />
 
 ## Good To Great by James Collins
 
@@ -31,7 +31,7 @@ Seems like a pretty good life lesson to me.
 
 I'll give it a 4 out of 5
 
-![four-bennies](../images/four-bennies.jpg)
+<Bennies :rating="4" />
 
 ## Big Data Baseball by Travis Sawchik
 
@@ -41,7 +41,7 @@ I'll give it a 4 out of 5
 
 I'll give it a 4 out of 5
 
-![four-bennies](../images/four-bennies.jpg)
+<Bennies :rating="4" />
 
 <style>
     img {

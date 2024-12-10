@@ -27,9 +27,7 @@ Page 146:
 
 It's not that the organization of the book makes it less practical per se, but it seems like there are many good fragments that could be combined into a greater whole.
 
-3 of 5
-
-![three-bennies](../images/three-bennies.jpg)
+<Bennies :rating="3" />
 
 
 ## Deep Work by Cal Newport
@@ -55,7 +53,7 @@ Page 146:
 
 Deep work isn't just a good idea or plan, it's what I innately desire every day
 
-![five-bennies](../images/five-bennies.jpg)
+<Bennies :rating="5" />
 
 ## Digital Minimalism by Cal Newport
 
@@ -73,7 +71,7 @@ The book reminds you multiple times that "your time = their money" and that they
 
 [Here is a somewhat related article I found interesting.](http://nymag.com/intelligencer/2016/09/andrew-sullivan-my-distraction-sickness-and-yours.html)
 
-![five-bennies](../images/five-bennies.jpg)
+<Bennies :rating="5" />
 
 ## Astroball by Ben Reiter
 
@@ -84,7 +82,7 @@ Page 160:
 
 I'll give it a 2 out of 5 because the author did a fine job, but... the book means nothing anymore.
 
-![two-bennies](../images/two-bennies.jpg)
+<Bennies :rating="2" />
 
 <style>
     img {

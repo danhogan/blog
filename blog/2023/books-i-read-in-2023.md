@@ -41,9 +41,7 @@ I greatly enjoyed the pragmatic approaches and would suggest the book to anyone.
 
 I don't remember where I saw this book suggested. I just remember liking the vibe.
 
-4 of 5
-
-![four-bennies](../images/four-bennies.jpg)
+<Bennies :rating="4" />
 
 
 ![Entrusted](../images/entrusted.jpg)
