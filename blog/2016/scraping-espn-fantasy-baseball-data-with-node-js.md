@@ -9,6 +9,10 @@ tags:
     - Tech
 ---
 
+Learning how to grab some data off of ESPN's fantasy baseball platform.
+
+---
+
 I already wrote [about the UI part of this](using-d3-js-to-analyze-fantasy-baseball-data/). This is about how I gathered the data to begin with.
 
 Ideas for this little project began when looking at the record board in my fantasy baseball league. We keep yearly, weekly, and even daily records. Often times a daily or weekly record can be missed. Instead of clicking through the day by day views and arduously comparing all the numbers, I figured there must be an easier way. ESPN thinks they’re too cool for a public API, so I decided I would make a little something to grab the data myself. I just wanted to organize the data I could already see. Simple as that.

@@ -9,6 +9,10 @@ tags:
     - Stories
 ---
 
+He liked the Cocoa. He liked the Puffs.
+
+---
+
 Once upon a time there lived a man named Bob and one time Bob went to the store. When Bob was at the store he decided to look at the cereal. Bob sure loved his cereal. His favorite cereal of all time was Cocoa Puffs.
 
 He liked the Cocoa.

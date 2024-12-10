@@ -9,6 +9,10 @@ tags:
     - Tech
 ---
 
+It's a pun.
+
+---
+
 Lately, I’ve been trying to be a bit better about my posture and at work. As many know, working hunched over in front of a computer all day can take a toll after awhile. To combat this, I decided to make it a habit to stretch at least a little bit every 30 minutes.
 
 I also wouldn’t mind gaining some skill with Python, and I thought Python seemed like a fair tool to help me set a reminder to stretch. Certainly there are other ways to set reminders on your computer, but this is the cool way to do it (maybe). First things first, I had to [download](https://www.python.org/downloads/) and install Python on my Windows computer. With that done, I went ahead and opened up a simple text editor (I like [Sublime](https://www.sublimetext.com/3)) to create my little Python script.
