@@ -9,6 +9,28 @@
 :root {
   --c-brand: #e29b2f;
   --c-brand-light: #4abf8a;
+  --primary: hsl(226, 57%, 21%);
+}
+
+::selection {
+  background: var(--c-brand);
+  color: var(--primary);
+}
+
+::-webkit-scrollbar {
+  width: .75rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(226, 57%, 31%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(36, 50%, 36%);
 }
 
 nav img {
