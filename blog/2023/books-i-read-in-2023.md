@@ -11,6 +11,12 @@ tags:
 Here lies review of text scrolled by my eyeballs in 2023.
 
 ---
+<style>
+.prose > div > p:first-of-type
+, .prose > div > hr:first-of-type {
+    display: none;
+}
+</style>
 
 <script setup>
     import Bennies from '../../.vitepress/theme/Bennies.vue'

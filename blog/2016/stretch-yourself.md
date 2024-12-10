@@ -12,6 +12,12 @@ tags:
 It's a pun.
 
 ---
+<style>
+.prose > div > p:first-of-type
+, .prose > div > hr:first-of-type {
+    display: none;
+}
+</style>
 
 Lately, I’ve been trying to be a bit better about my posture and at work. As many know, working hunched over in front of a computer all day can take a toll after awhile. To combat this, I decided to make it a habit to stretch at least a little bit every 30 minutes.
 

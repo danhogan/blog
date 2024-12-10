@@ -12,6 +12,12 @@ tags:
 Learning to use Vue.js with Bulma css framework.
 
 ---
+<style>
+.prose > div > p:first-of-type
+, .prose > div > hr:first-of-type {
+    display: none;
+}
+</style>
 
 Lately I have been learning [Vue.js](https://vuejs.org/). In starting from a scratch Vue project, I weighed options of a CSS framework to use. I've used [Bootstrap](http://getbootstrap.com/) in the past, but I like how [Bulma](https://bulma.io/) can function without jQuery and that it is completely built on flexbox (plus it looked like a cool thing to learn).
 

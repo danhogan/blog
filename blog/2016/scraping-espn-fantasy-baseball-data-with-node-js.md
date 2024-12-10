@@ -12,6 +12,12 @@ tags:
 Learning how to grab some data off of ESPN's fantasy baseball platform.
 
 ---
+<style>
+.prose > div > p:first-of-type
+, .prose > div > hr:first-of-type {
+    display: none;
+}
+</style>
 
 I already wrote [about the UI part of this](using-d3-js-to-analyze-fantasy-baseball-data/). This is about how I gathered the data to begin with.
 

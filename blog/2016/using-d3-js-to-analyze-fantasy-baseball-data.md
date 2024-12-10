@@ -12,6 +12,12 @@ tags:
 I had fun making charts/graphs that showed strengths and weaknesses of the teams in my fantasy baseball league.
 
 ---
+<style>
+.prose > div > p:first-of-type
+, .prose > div > hr:first-of-type {
+    display: none;
+}
+</style>
 
 Summer is just about here and baseball is back in full swing (no pun intended). With summer nights under the bright lights and yet another year to be added to history there also comes a maniacal analysis and freakish infatuation with every baseball statistic that can possibly be tracked. Of course, this brings us to fantasy baseball.
 
