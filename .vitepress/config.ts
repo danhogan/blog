@@ -12,7 +12,7 @@ export default defineConfig({
       'meta',
       {
         name: 'twitter:image',
-        content: 'https://vuejs.org/images/logo.png'
+        content: 'logo.svg'
       }
     ],
     [
@@ -20,7 +20,7 @@ export default defineConfig({
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico'
+        href: '/logo.svg'
       }
     ],
     [

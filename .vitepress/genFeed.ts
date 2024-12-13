@@ -3,19 +3,19 @@ import { writeFileSync } from 'fs'
 import { Feed } from 'feed'
 import { createContentLoader, type SiteConfig } from 'vitepress'
 
-const baseUrl = `https://blog.vuejs.org`
+const baseUrl = `https://belowthebenthic.com`
 
 export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
-    title: 'The Vue Point',
-    description: 'The official blog for the Vue.js project',
+    title: 'Below The Benthic',
+    description: 'The official blog for Below The Benthic',
     id: baseUrl,
     link: baseUrl,
     language: 'en',
-    image: 'https://vuejs.org/images/logo.png',
-    favicon: `${baseUrl}/favicon.ico`,
+    image: 'logo.svg',
+    favicon: `${baseUrl}/logo.svg`,
     copyright:
-      'Copyright (c) 2021-present, Yuxi (Evan) You and blog contributors'
+      'Copyright (c) 2024-present, Dan Hogan'
   })
 
   const posts = await createContentLoader('blog/**/*.md', {
