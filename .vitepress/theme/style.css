@@ -69,7 +69,7 @@ h3 .header-anchor:before {
   content: '#';
 }
 
-h2 {
+#app h2 {
   margin-top: 0;
 }
 
