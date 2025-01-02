@@ -29,7 +29,7 @@
           },
           {
             name: 'Dave Dreiser',
-            title: 'Epic Dude',
+            title: 'Epic Cosmos Specialist',
             quote: 'I think your job title on the aforementioned online resume should be internet wizard. Maybe level 12 internet wizard.',
             image: 'david.jpg'
           }
