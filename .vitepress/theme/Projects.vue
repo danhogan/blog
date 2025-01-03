@@ -7,9 +7,7 @@
                         <img :src="project.image" :alt="`image-${project.title}`" class="image rounded-lg shadow-lg" />
                     </div>
                     <figcaption class="text-center">
-                        
-                            <h2 class="text-white text-2xl mt-3">{{ project.title }}</h2>
-                        
+                        <h2 class="text-white text-2xl mt-3">{{ project.title }}</h2>
                         <blockquote class="blockquote p-2 rounded-lg text-white">
                             {{ project.description }}
                         </blockquote>
@@ -17,6 +15,9 @@
                 </a>
             </figure>
         </div>
+        <p class="text-white px-4">Find work history on <a class="link"
+                href="https://www.linkedin.com/in/iamdanhogan/" target="_blank" rel="noopener">LinkedIn</a> and more
+            public projects on <a class="link" href="https://github.com/danhogan/" target="_blank" rel="noopener">Github</a></p>
     </section>
 </template>
 
